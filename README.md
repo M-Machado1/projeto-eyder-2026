@@ -1,5 +1,4 @@
 # projeto-eyder-2026
-# projeto-eyder-2026
 ## Integrantes
 - Bruno Vinicius
 - Murilo
