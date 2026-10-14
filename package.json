@@ -1,0 +1,27 @@
+{
+  "name": "nova-pasta-projeto",
+  "version": "1.0.0",
+  "description": "- Bruno Vinicius - Murilo ## Consulta Meteorológica",
+  "main": "index.js",
+  "scripts": {
+    "dev":"vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruno010996/projeto-eyder-2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bruno010996/projeto-eyder-2026/issues"
+  },
+  "homepage": "https://github.com/bruno010996/projeto-eyder-2026#readme",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}

@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Localidade</title>
+    <script type="module" src="/pesquisa.ts"></script>
+</head>
+
+<body class="min-h-screen bg-slate-100 p-6">
+
+    <main class="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+
+        <h1 class="text-3xl font-bold text-blue-600 mb-6">
+            Pesquisa de Localidade
+        </h1>
+
+        <label for="cidade" class="block font-medium text-gray-700 mb-2">
+            Digite o nome da cidade:
+        </label>
+
+        <div class="flex gap-2">
+            <input
+                type="text"
+                id="cidade"
+                placeholder="Ex.: Parnaíba"
+                class="flex-1 min-w-0 border border-gray-300 rounded-lg p-3"
+            >
+
+            <button
+                id="pesquisar"
+                class="bg-blue-600 text-white px-5 py-3 rounded-lg hover:bg-blue-700"
+            >
+                Pesquisar
+            </button>
+        </div>
+
+        <h2 class="text-xl font-semibold mt-8 mb-4">
+            Resultados da pesquisa
+        </h2>
+
+        <ul id="resultados" class="space-y-3">
+            <li class="text-gray-500">
+                Digite uma cidade para pesquisar.
+            </li>
+        </ul>
+
+    </main>
+
+</body>
+</html>
+
+
