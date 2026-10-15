@@ -1,27 +1,19 @@
 {
-  "name": "nova-pasta-projeto",
+  "name": "consulta-meteorologica",
   "version": "1.0.0",
-  "description": "- Bruno Vinicius - Murilo ## Consulta Meteorológica",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "description": "Consulta meteorológica com Open-Meteo, TypeScript e Tailwind CSS",
   "scripts": {
-    "dev":"vite"
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bruno010996/projeto-eyder-2026.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/bruno010996/projeto-eyder-2026/issues"
-  },
-  "homepage": "https://github.com/bruno010996/projeto-eyder-2026#readme",
   "devDependencies": {
-    "@tailwindcss/vite": "^4.3.3",
-    "tailwindcss": "^4.3.3",
-    "typescript": "^7.0.2",
-    "vite": "^8.3.4"
+    "@tailwindcss/vite": "^4.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.5.0",
+    "vite": "^7.0.0"
   }
 }
