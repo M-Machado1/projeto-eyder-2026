@@ -6,7 +6,7 @@ Trabalho da 1ª Avaliação de Programação Web (UESPI).
 ## Integrantes
 
 - Bruno Vinicius
-- Murilo
+- Murilo Linhares
 
 ## Funcionalidades
 
